@@ -275,4 +275,6 @@ flutter pub add permission_handler
 
 ## Reference
   - [pub.dev - permission_handler](https://pub.dev/packages/permission_handler)
-  - [flutter-permission-handler-demo](https://github.com/Baseflow/flutter-permission-handler/tree/main)
+  - [Github - flutter-permission-handler-demo](https://github.com/Baseflow/flutter-permission-handler/tree/main)
+  - [Android - 定義自訂應用程式權限](https://developer.android.com/guide/topics/permissions/defining?hl=zh-tw#groups)
+  - [iOS - Protected resources](https://developer.apple.com/documentation/bundleresources/information_property_list/protected_resources)
