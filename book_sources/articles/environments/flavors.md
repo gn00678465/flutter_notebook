@@ -1,8 +1,6 @@
 # Flutter Flavors
 
-{% hint style="info" %}
-可於 Flutter 切分不同的開發環境，如: dev(開發中)、stage(測試中)、production(正式發布)
-{% endhint %}
+> 可於 Flutter 切分不同的開發環境，如: dev(開發中)、stage(測試中)、production(正式發布)
 
 ## iOS
 1. 以 ios 資料夾開啟 xcode
