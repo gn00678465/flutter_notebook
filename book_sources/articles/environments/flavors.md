@@ -34,32 +34,30 @@
     - `flavorDimensions` : Android 要求為每個 flavor 加上 Dimension 以分組
 3. 新增 `productFlavors` object
     - `applicationIdSuffix` : 為 **ApplicationID** 尾端再加上一段文字，解決安裝衝突問題。
+    ```gradle
+    <!-- build.gradle -->
 
-```gradle
-<!-- build.gradle -->
-
-android {
-    <!-- ... -->
-    flavorDimensions "default"
-    productFlavors {
-        dev {
-          dimension "default"
-          resValue "string", "app_name", "dev flavor example"
-          applicationIdSuffix ".dev"
-        }
-        stage {
-          dimension "default"
-          resValue "string", "app_name", "stage flavor example"
-          applicationIdSuffix ".stage"
-        }
-        production {
-          dimension "default"
-          resValue "string", "app_name", "prod flavor example"
+    android {
+        <!-- ... -->
+        flavorDimensions "default"
+        productFlavors {
+            dev {
+              dimension "default"
+              resValue "string", "app_name", "dev flavor example"
+              applicationIdSuffix ".dev"
+            }
+            stage {
+              dimension "default"
+              resValue "string", "app_name", "stage flavor example"
+              applicationIdSuffix ".stage"
+            }
+            production {
+              dimension "default"
+              resValue "string", "app_name", "prod flavor example"
+            }
         }
     }
-}
-
-```
+    ```
 
 ## Setting up launch configurations(VS code)
 
