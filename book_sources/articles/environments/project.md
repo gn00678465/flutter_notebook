@@ -5,7 +5,6 @@
 ```bash
 flutter create my_app
 ```
-
 > Flutter 預設將專案資料夾名字用於 **BundleID** 和 **ApplicationID** > **BundleID** 為 `com.example.my_app` > **ApplicationID** 為 `com.example.myApp`
 
 ```bash
@@ -28,4 +27,4 @@ flutter create --platforms=web,macos .
 - [Flutter ‘create’ 了什麼？](https://kendevlog.wordpress.com/2020/09/26/flutter-create/)
 - [修改 applicationId](https://www.eeaseries.com/2021/01/applicationid.html)
 - BundleID: [CFBundleIdentifier](https://developer.apple.com/documentation/bundleresources/information_property_list/cfbundleidentifier)
-- ApplicationID:
+- ApplicationID: [設定應用程式模組](https://developer.android.com/studio/build/configure-app-module?hl=zh-tw)
