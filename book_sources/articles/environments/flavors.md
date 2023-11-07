@@ -3,6 +3,29 @@
 > 可於 Flutter 切分不同的開發環境，如: dev(開發中)、stage(測試中)、production(正式發布)
 
 ## iOS
+1. 以 ios 資料夾開啟 xcode
+2. 從選單上 **Product** > **Scheme** > **Manage Scheme** 設定 scheme
+  - 建立新的 dev scheme
+  - 重新命名 Runner -> prod
+  ![ios_flavors_scheme_1](../../assets/ios_flavors_scheme_1.png)
+3. 複製編譯設定以對應不同的 flavors
+  - 複製每一項編譯設定，並重新命名並對應 flavors
+  ![ios_flavors_scheme_2](../../assets/ios_flavors_scheme_2.png)
+4. 調整 scheme 對應變更後的編譯設定
+  - **Product** > **Scheme** > **Manage Scheme** > **Select scheme** > **Edit**
+  ![ios_flavors_scheme_3](../../assets/ios_flavors_scheme_3.png)
+5. 修改 app bundle identifier
+  - 位於 **Build Settings** > **Product Bundle Identifier**
+  - 修改名稱對應不同的 flavors
+  ![ios_flavors_scheme_4](../../assets/ios_flavors_scheme_4.png)
+6. 修改 Product Name
+  - 位於 **Build Settings**
+  - 修改名稱對應不同的 flavors
+  ![ios_flavors_scheme_5](../../assets/ios_flavors_scheme_5.png)
+7. 更新 **Bundle Display Name** 的值為變數名稱 `$(PRODUCT_NAME)`
+  - 位於 **Info.plist**
+  ![ios_flavors_scheme_6](../../assets/ios_flavors_scheme_6.png)
+
 
 ## Android
 
