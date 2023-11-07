@@ -1,6 +1,8 @@
-# Flutter flavors
+# Flutter Flavors
 
-> 可於 Flutter 切分不同的開發環境，如: dev(開發中)、stage(測試中)、production(正式發布)
+{% hint style="info" %}
+可於 Flutter 切分不同的開發環境，如: dev(開發中)、stage(測試中)、production(正式發布)
+{% endhint %}
 
 ## iOS
 1. 以 ios 資料夾開啟 xcode
@@ -100,6 +102,14 @@
 2. 原本的 **main.dart** 修改為 **app.dart**
     - 將 function `main` 修改為 `runWithAppConfig`
 3. 於 **main_dev.dart** 與 **main_prod.dart** 內依照不同環境個別設定
+
+## Launching your app flavors
+```bash
+# Run development
+flutter run --flavor dev --target lib/main_dev.dart
+# Run production
+flutter run --flavor prod --target lib/main_prod.dart
+```
 
 ## Reference
 
