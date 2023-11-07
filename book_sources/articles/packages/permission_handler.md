@@ -271,10 +271,13 @@ flutter pub add permission_handler
 ```
 
 ## Usage
+
 - [How to use](https://pub.dev/packages/permission_handler#how-to-use)
 
 ## Reference
+
+  - [iOS - Protected resources](https://developer.apple.com/documentation/bundleresources/information_property_list/protected_resources)
+  - [Android - 定義自訂應用程式權限](https://developer.android.com/guide/topics/permissions/defining?hl=zh-tw#groups)
   - [pub.dev - permission_handler](https://pub.dev/packages/permission_handler)
   - [Github - flutter-permission-handler-demo](https://github.com/Baseflow/flutter-permission-handler/tree/main)
-  - [Android - 定義自訂應用程式權限](https://developer.android.com/guide/topics/permissions/defining?hl=zh-tw#groups)
-  - [iOS - Protected resources](https://developer.apple.com/documentation/bundleresources/information_property_list/protected_resources)
+  - [pub.dev - Permission class](https://pub.dev/documentation/permission_handler_platform_interface/latest/permission_handler_platform_interface/Permission-class.html)
