@@ -5,6 +5,13 @@
 
 路徑: **android/app/src/main/res**
 
+### 使用 Android Studio
+
+1. **flutter project** > **Tools** > **Flutter** > **Open Android module in Android Studio**
+  - 會開啟另一個視窗，等待載入資源完畢
+2. **res** > **New** > **Image Assets**
+  - Android 8.0 (API 26+)，icon 分為前景層與背景層
+
 ## iOS
 > Icon 位於 **Assets.xcassets** 資料夾裡的 **AppIcon.appiconset** 資料夾(包含各種尺寸)
 
