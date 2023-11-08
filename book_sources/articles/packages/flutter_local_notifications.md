@@ -1,0 +1,1 @@
+# Flutter package - flutter_local_notifications
