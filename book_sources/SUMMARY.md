@@ -8,3 +8,5 @@
   - [Singleton(單例模式)](./articles/note/singleton.md)
 - [Packages](./articles/packages/README.md)
   - [permission_handler](./articles/packages/permission_handler.md)
+- 參考
+  - [《Flutter实战·第二版》](https://book.flutterchina.club/)
