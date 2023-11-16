@@ -117,6 +117,11 @@ flutter pub add permission_handler
     <!-- Permissions options for the `alarm` group -->
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     
+    <!-- Permissions options for the `震動` group -->
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <!-- Permissions options for the `開機就執行` group -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <application>
     ...
     </application>
