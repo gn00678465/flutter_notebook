@@ -7,6 +7,7 @@
   - [AppIcon](./articles/environments/app_icon.md)
 - Note
   - [Singleton(單例模式)](./articles/note/singleton.md)
+  - [Dark Mode](./articles/note/dark_mode.md)
 - [Packages](./articles/packages/README.md)
   - [permission_handler](./articles/packages/permission_handler.md)
   - [device_info_plus](./articles/packages/device_info_plus.md)
