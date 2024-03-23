@@ -75,38 +75,32 @@ flutter doctor
 1. [Android Studio 系統需求](https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio?hl=zh-tw#5)
 
 2. Download the latest stable of Android Studio. [download](https://developer.android.com/studio/?gclid=Cj0KCQiAjJOQBhCkARIsAEKMtO3zEhdK4_I0CEZic3UH4dl-9gVXuHFR9dCl3TOHKjmv3xWLU3UxfhYaApfAEALw_wcB&gclsrc=aw.ds&hl=zh-tw)
-
 ```sh
 mkdir -p $HOME/Downloads && cd "$_"
 ```
 
 3. Create an `Applications` directory if it doesn’t already exist, and navigate to it.
-
 ```bash
 mkdir -p $HOME/Applications && cd "$_"
 ```
 
 4. Extract the Flutter files from the archive in the `Downloads` directory to the `Applications` directory.
-
 ```bash
 tar xfv $HOME/Downloads/$(ls -d $HOME/Downloads/android-studio*.tar.gz | xargs basename)
 ```
 
 5. Configure flutter to use this installation
-
 ```bash
 flutter config --android-studio-dir $HOME/Applications/android-studio/
 ```
 
 6. create an alias
-
 ```bash
 alias android-studio=$HOME/Applications/android-studio/bin/studio.sh
 ```
 > 可以將上述指令加入環境變數中. ex:`.bashrc`, `.zshrc`
 
 7. Run the studio
-
 ```bash
 android-studio
 ```
