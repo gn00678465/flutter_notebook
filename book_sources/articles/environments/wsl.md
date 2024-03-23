@@ -1,6 +1,9 @@
 # WSL 內建立 Flutter 開發環境
 
+> Windows 子系統 Linux 版 （WSL） 是 Windows 的一項功能，可讓您在 Windows 電腦上執行 Linux 環境，而不需要個別的虛擬機或雙開機。
+
 ## Linux setup
+
 ### Install Java
 To install the JDK, execute the following command, which will also install the JRE:
 ```sh
@@ -23,6 +26,7 @@ sudo apt install clang cmake ninja-build pkg-config libgtk-3-dev liblzma-dev
 Refer to Microsoft's instructions below.
 
 ## Install Flutter
+
 ### Install Flutter manually
 1. Create a `Downloads` directory if it doesn’t already exist, and navigate to it.
 ```sh

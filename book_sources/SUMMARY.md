@@ -3,8 +3,8 @@
 - [Introduction](README.md)
 - [Tags](tags.md)
 - [環境設定](./articles/environments/README.md)
+  - [WSL 內設定開發環境](./articles/environments/wsl.md)
   - [建立專案](./articles/environments/project.md)
-  - [WSL 內建立專案](./articles/environments/wsl.md)
   - [Flavors](./articles/environments/flavors.md)
   - [AppIcon](./articles/environments/app_icon.md)
 - Note
